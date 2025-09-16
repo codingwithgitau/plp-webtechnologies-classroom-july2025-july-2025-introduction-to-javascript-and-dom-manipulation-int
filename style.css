@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+section {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+#dynamicBox {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: lightblue;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
